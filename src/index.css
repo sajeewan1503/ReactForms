@@ -2,16 +2,16 @@
 
 * {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto;
   font-weight: Absolute;
-  font-style: normal;
+  font-style: normal; */
 }
-table {
+/* table {
   border: 1px solid black;
   border-collapse: collapse;
 }
 table td {
-  border: 1px solid black;
+  border: 1px solid black;å
   padding: 5px 10px;
 }
 table td:first-child {
@@ -28,4 +28,33 @@ form {
   display: flex;
   flex-direction: column;
   gap: 5px;
+} */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fc427b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  color: #fff;
+  text-align: center;
+}
+div h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+div button {
+  border: none;
+  background-color: antiquewhite;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+b {
+  color: black;
+  background-color: bisque;
+  border-radius: 50%;
+  padding: 5px;
 }
